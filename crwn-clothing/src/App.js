@@ -28,7 +28,7 @@ class App extends Component {
           });
         });
       }
-      setCurrentUser({ currentUser: userAuth });
+      setCurrentUser(userAuth);
     });
   }
 
